@@ -1,0 +1,52 @@
+.addProductMain {
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.944);
+  border-radius: 5px;
+}
+
+.add-product-container {
+  height: 90vh;
+  background-color: rgba(128, 128, 128, 0.555);
+}
+
+input {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.681);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.681);
+  padding: 8px;
+  border-radius: 5px;
+
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.addbtn {
+  width: 100px;
+  background-color: grey;
+  color: white;
+}
+
+.addbtn:hover {
+  width: 100px;
+  background-color: grey;
+  color: white;
+}
+
+@media only screen and (min-width:1200px) {
+  .addProductMain {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.944);
+    padding-bottom: 50px;
+    border-radius: 5px;
+
+  }
+}

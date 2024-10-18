@@ -1,0 +1,111 @@
+.offer-left-side {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 50px 90px;
+}
+
+.offer-container {
+  background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.396), white);
+  border-radius: 5px;
+
+}
+
+.offer-heading {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.offer-subheading {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.offer-btn {
+  width: 180px;
+  padding: 10px;
+  border-radius: 30px;
+
+  margin-top: 20px;
+  background-color: rgb(128, 0, 128);
+  color: white;
+}
+
+.offer-btn:hover {
+  background-color: white;
+  color: purple;
+  border: 1px solid rgba(128, 0, 128, 0.829);
+}
+
+/* Right side */
+.offer-right-image {
+  height: 90%;
+  width: 50%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .offer-heading {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .offer-subheading {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .offer-btn {
+    margin-top: 10px;
+    width: 150px;
+  }
+
+  .offer-right-image {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width:1001px) and (max-width: 1200px) {
+  .offer-heading {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .offer-right-image {
+    height: 70%;
+    width: 60%;
+  }
+
+  .offer-left-side {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 20px 90px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .offer-left-side {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px 50px;
+  }
+
+  .offer-heading {
+    font-size: 40px;
+
+  }
+
+  .offer-subheading {
+
+    font-size: 16px;
+  }
+}

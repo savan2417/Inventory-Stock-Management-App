@@ -1,0 +1,73 @@
+.cartMain {
+  margin-top: 150px;
+}
+
+.cartImage {
+  height: 100px;
+  width: 100px;
+}
+
+.cardBorder {
+  border: 1px solid grey;
+}
+
+
+.cartBtn {
+  padding: 10px 20px;
+}
+
+.bgcolorofHeadingRow {
+  background-color: black;
+  color: white;
+}
+
+.bgcolorOfRow {
+  background-color: rgba(128, 128, 128, 0.564);
+}
+
+.proceedToCheckoutBtn {
+  background-color: rgba(128, 128, 128, 0.564);
+  padding: 10px;
+  color: black;
+  border: none;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  padding: 11px;
+  border: none;
+}
+
+.inputField {
+  padding: 10px;
+}
+
+.cartName {
+
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width:568px) and (max-width:767px) {
+  .cartImage {
+    height: 100px;
+    width: 70px;
+  }
+
+  .cartName {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+}
+
+@media only screen and (max-width:567px) {
+  .cartImage {
+    height: 100px;
+    width: 70px;
+  }
+
+  .cartName {
+    font-size: 3px;
+    word-wrap: break-word;
+  }
+}

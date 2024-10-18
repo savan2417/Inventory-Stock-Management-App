@@ -1,0 +1,27 @@
+.NavLogo {
+  height: auto;
+  width: 200px;
+}
+
+.NavProfile {
+  height: auto;
+  width: 80px;
+}
+
+.navbar-main {
+  box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.685);
+}
+
+@media only screen and (max-width: 567px) {
+  .NavLogo {
+    height: auto;
+    width: 150px;
+  }
+
+  .NavProfile {
+    height: auto;
+    width: 60px;
+  }
+}
+
+@media only screen and (min-width:568px) and (max-width: 768px) {}

@@ -1,0 +1,152 @@
+.hero-left-side {
+  padding: 160px 20px 50px 20px;
+}
+
+.hero-main {
+  margin-top: 80px;
+
+}
+
+.Hero-main {
+  background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.813), white);
+}
+
+.subHeading {
+  font-weight: bold;
+}
+
+.heading {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.herobtn {
+  background-color: purple;
+  margin-top: 20px;
+
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: white;
+}
+
+.handicon {
+  height: 80px;
+  width: 80px;
+}
+
+.herobtn:hover {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 3px solid purple;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: purple;
+}
+
+/* Hero Right Side */
+.heroImage {
+  width: 80%;
+  height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+  .hero-left-side {
+    padding: 120px 20px 50px 20px;
+  }
+
+  .navbar-email {
+    display: block;
+  }
+
+  .heading {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .handicon {
+    height: 50px;
+    width: 50px;
+  }
+
+}
+
+@media only screen and (min-width:1001px) and (max-width: 1200px) {
+  .navbar-email {
+    display: block;
+  }
+
+  .heading {
+    font-size: 65px;
+    font-weight: 700;
+  }
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .hero-left-side {
+    padding: 100px 20px 50px 20px;
+  }
+
+  .subHeading {
+    font-weight: bold;
+    font-size: 23px;
+  }
+
+  .handicon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .herobtn {
+    padding: 5px 20px;
+
+  }
+
+  .navbar-email {
+    display: block;
+  }
+
+  .heroImage {
+    width: 80%;
+    height: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 567px) {
+  .navbar-email {
+    display: none;
+  }
+
+  .subHeading {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .heading {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .heroImage {
+    width: 80%;
+    height: 70%;
+  }
+
+}

@@ -1,0 +1,156 @@
+/* navbar section */
+.navbar {
+
+  background-color: black;
+}
+
+.navbar.nav {
+  height: 100vh;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1.3rem;
+}
+
+.navbar-email {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.collapse ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.3rem;
+  padding-bottom: 0px;
+  padding-right: 20px;
+
+}
+
+.navbar-email a:hover {
+  color: #8850f7c3;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 17px;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+
+}
+
+.navbar-toggler-icon {
+
+  background-color: white;
+}
+
+.navbar-btn {
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  border: none;
+  padding: 0px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  font-size: 17px;
+}
+
+.navbar-nav li {
+  position: relative;
+}
+
+.navbar-nav li::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  width: 0%;
+  left: 20px;
+  transition: all 0.5s linear;
+  border-bottom: 2.4px solid white;
+}
+
+.navbar-nav li:hover::after {
+  width: 80%;
+}
+
+
+.cart_image {
+  background-color: white;
+}
+
+.navbar-email a:hover {
+  color: rgba(128, 0, 128, 0.913);
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-email {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    flex-grow: 1;
+  }
+
+  .navbar-btn {
+    width: 110px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .navbar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.3rem;
+    margin-top: 10px;
+    padding-right: 20px;
+
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    height: auto;
+  }
+}

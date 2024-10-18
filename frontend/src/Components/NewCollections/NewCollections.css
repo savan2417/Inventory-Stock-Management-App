@@ -1,0 +1,6 @@
+.collection_underline {
+  height: 3px;
+  width: 100px;
+  margin: 10px auto 20px;
+  background-color: black;
+}

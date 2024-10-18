@@ -1,0 +1,120 @@
+.cartMain {
+  margin-top: 150px;
+}
+
+.listProductMain {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.cartImage {
+  height: 100px;
+  width: 100px;
+}
+
+
+.cardBorder {
+  border: 1px solid grey;
+}
+
+.headeringBgColor {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.cartBtn {
+  padding: 10px 20px;
+}
+
+.bgcolorofHeadingRow {
+  background-color: rgba(128, 128, 128, 0.706);
+  color: black;
+}
+
+.bgcolorOfRow {
+  background-color: rgba(128, 128, 128, 0.564);
+}
+
+.proceedToCheckoutBtn {
+  background-color: rgba(128, 128, 128, 0.564);
+  padding: 10px;
+  color: black;
+  border: none;
+}
+
+.productImage {
+  height: 100px;
+  width: 100px;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  padding: 11px;
+  border: none;
+}
+
+.inputField {
+  padding: 10px;
+}
+
+.cartName {
+
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width:800px) and (max-width:992px) {
+  .productImage {
+    height: 100px;
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width:568px) and (max-width:800px) {
+  .cartImage {
+    height: 100px;
+    width: 70px;
+  }
+
+  .cartName {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+
+  .productImage {
+    height: 70px;
+    width: 70px;
+  }
+
+  .cardBorder {
+    border: 1px solid grey;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:567px) {
+  .cartImage {
+    height: 100px;
+    width: 70px;
+  }
+
+  .cartName {
+    font-size: 3px;
+    word-wrap: break-word;
+  }
+
+  .cardBorder {
+    border: 1px solid grey;
+    font-size: 12px;
+  }
+
+  .productImage {
+    height: 70px;
+    width: 70px;
+  }
+
+  .productName {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,99 @@
+.newsLetter-main {
+  background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.557), white);
+}
+
+.newsHeading {
+  text-align: center;
+  font-size: 45px;
+
+}
+
+.newsSubheading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.newsForm {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.newsInput {
+  height: 46px;
+  width: 460px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+}
+
+.newsbtn {
+  height: 46px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+}
+
+.newsbottomspace {
+  padding-bottom: 80px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .newsHeading {
+    font-size: 35px;
+  }
+
+  .newsSubheading {
+    font-size: 16px;
+  }
+
+  .newsInput {
+    width: 300px;
+
+  }
+}
+
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .newsHeading {
+    font-size: 25px;
+  }
+
+  .newsSubheading {
+    font-size: 15px;
+  }
+
+  .newsInput {
+    width: 240px;
+    height: 40px;
+  }
+
+  .newsbtn {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .newsHeading {
+    font-size: 20px;
+  }
+
+  .newsSubheading {
+    font-size: 13px;
+  }
+
+  .newsInput {
+    width: 150px;
+    height: 40px;
+  }
+
+  .newsbtn {
+    height: 40px;
+    padding: 5px 10px;
+  }
+}

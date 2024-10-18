@@ -1,0 +1,8 @@
+.popular-image {
+  width: 100%;
+  transition: all .5s linear;
+}
+
+.popular-image:hover {
+  transform: scale(1.1);
+}
